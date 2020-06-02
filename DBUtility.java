@@ -14,6 +14,7 @@ public class DBUtility {
 
     public static String login(String SSN_entry) throws ClassNotFoundException, SQLException{
    
+   // new 
    	 // Load the JDBC driver
       Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
       System.out.println("Driver loaded");
